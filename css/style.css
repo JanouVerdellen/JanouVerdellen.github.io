@@ -83,6 +83,11 @@ p {
     margin-left: 5%;
 }
 
+.title-width {
+    width: 60vw;
+    margin: 0 auto;
+}
+
 .PF-foto {
     width: 50%;
     height: 80vh;
@@ -141,7 +146,7 @@ p {
 .werk-raster {
     width: 78%;
     height: auto;
-    margin: 5% auto;
+    margin: 8vh auto;
 
 }
 
@@ -270,12 +275,15 @@ p {
 .comp-list {
     width: 60%;
     height: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 
 }
 
 .comp-p {
     width: 75%;
     margin-bottom: 3vh;
+    padding-top: 3%;
 }
 
 .groter-margin {
@@ -283,8 +291,40 @@ p {
     margin: 0 auto;
 }
 
+.insta1 {
+    width: 34%;
+    height: auto;
+}
 
+.insta2 {
+    width: 18%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
+.web {
+    width: 20%;
+    margin-left: 3%;
+}
+
+.pijl-img {
+    width: 10%;
+    margin: 4vh auto;
+    display: block;
+
+}
+
+.spraak-img {
+    margin-top: 10vh;
+}
+
+.kk-logo {
+    width: 15%;
+    display: block;
+    margin-top: 3vh;
+    margin: 3vh auto;
+}
 
 /* extra */
 
@@ -343,13 +383,35 @@ a {
 
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
+
 @media only screen and (max-width: 450px) {
     h1 {
 
         font-size: 3em;
     }
 
-    .klein {
+    .nav-element {
+        margin-left: 30px;
+        float: right;
+    }
+
+    .nav-balk {
+        padding-top: 30px;
+        background-color: #FFECFA;
+        width: 100vw;
+        position: fixed;
+        padding-right: 10vw;
+        z-index: 2;
+        padding-bottom: 20px;
+        top: 0;
+    }
+
+    .cirkle {
         display: none;
 
     }
@@ -368,6 +430,38 @@ a {
 
     .inleiding {
         width: 60vw;
-        margin-top: 45vh;
+        margin-top: 55vh;
+    }
+
+    .container {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    .foto-gvl {
+        width: 100%;
+    }
+
+    .werk-body {
+        width: 70%;
+    }
+
+    .klein {
+        width: 30%;
+        height: auto;
+    }
+
+    .comp-list {
+        width: 75vw;
+    }
+
+    .groter-margin {
+        margin-top: 5vh;
+    }
+
+    .pijl-img {
+        width: 30%;
     }
 }
